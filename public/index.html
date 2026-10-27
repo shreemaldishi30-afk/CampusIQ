@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CampusIQ | MUJ Campus Navigator</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header class="topbar"><a class="brand" href="/"><span class="brand-mark">C</span><span>Campus<span class="brand-light">IQ</span></span></a><div class="top-note"><i></i> MUJ classroom navigator</div></header>
+<main class="realmap-layout">
+<section class="realmap-card">
+  <div class="realmap-heading"><div><p class="eyebrow">MANIPAL UNIVERSITY JAIPUR</p><h1>Find your destination.</h1><p class="intro">Search campus buildings, classrooms, labs, workshops and food outlets. CampusIQ keeps walking directions on this website.</p></div></div>
+  <div class="classroom-controls">
+    <div class="search-field"><label for="room-search">Search destination, lab or building</label><input id="room-search" type="search" autocomplete="off" placeholder="Try Central Library, AWS Lab, Mechanical Workshop, XRD Lab…"><div id="room-results" class="room-results" role="listbox" aria-label="Classroom search results"></div></div>
+    <div><label for="room-select">Or choose a destination</label><select id="room-select"><option value="">Select a destination</option></select></div>
+    <div class="button-row"><button id="locate-me" type="button" class="secondary">◎ Use my location</button><button id="open-directions" type="button" class="primary" disabled>Walking directions ↗</button></div>
+  </div>
+  <section id="destination-estimate" class="destination-estimate" aria-live="polite" hidden></section>
+  <p id="map-status" class="map-status" role="status">Loading the campus map…</p>
+  <div id="campus-map" aria-label="Interactive MUJ campus map with destination search results"></div>
+  <section class="share-panel"><h2>Meet up on campus</h2><p>Create a session to generate a code and invite link. Send either to your friend; they can join here and both locations will appear on this map.</p><div class="share-controls"><label>Your name <input id="share-name" maxlength="32" placeholder="e.g. Dishi"></label><label>Friend's session code <input id="share-session" maxlength="32" autocomplete="off" placeholder="Enter the code your friend sent"></label><label class="share-opt"><input id="share-enabled" type="checkbox"> Share my live location</label><div class="share-actions"><button id="share-create" class="secondary" type="button">Create new session</button><button id="share-join" class="primary" type="button">Join friend's session</button></div><div id="share-invite" class="share-invite" hidden><p><strong>Your session code</strong></p><output id="share-code-display" class="share-code-display">—</output><div class="share-actions"><button id="share-copy" class="secondary" type="button">Copy session code</button><button id="share-link-copy" class="secondary" type="button">Copy invite link</button><button id="share-native" class="primary" type="button">Share invite…</button></div><p class="share-help">Send this code or invite link to your friend. The invite link works only when this website is hosted at an address both phones can open.</p></div></div><p class="share-help">Create a session, then use <strong>Copy invite link</strong> or <strong>Share invite…</strong>. Your friend opens the link or enters the code, then selects <strong>Join friend's session</strong>. Both people must enable location sharing. <strong>Critical:</strong> both devices must open the same hosted HTTPS website. If each laptop opens its own <code>localhost:8080</code>, they are using separate servers and cannot see each other.</p><p id="share-status" role="status">No session joined yet.</p><div id="peer-list"></div></section>
+  <div class="map-attribution-note">Map data © OpenStreetMap contributors (ODbL; supplied GeoJSON exported 2025-08-11). Brown dots mark directory destinations with coordinates; classroom anchors may be approximate. Indoor routes need verified floor plans.</div>
+</section>
+<section class="directory-card">
+  <div><p class="eyebrow">DESTINATION DIRECTORY</p><h2>Find a destination</h2><p>Select a destination to focus its marker on the CampusIQ map. Brown map dots indicate known directory locations with coordinates; some classroom markers are approximate building anchors. Exact room-level routing requires verified entrances and floor plans.</p></div>
+  <div id="directory-list" class="directory-list"></div>
+</section>
+<section class="features-card" aria-labelledby="features-title">
+  <div class="features-heading"><div><p class="eyebrow">SMART ROUTING</p><h2 id="features-title">Plan your campus journey</h2><p>Choose routing preferences here. Accessibility, crowd and closure controls are currently demo settings until verified MUJ paths and indoor connections are supplied.</p></div><span class="demo-pill">DSA DEMO DATA</span></div>
+  <section class="student-dashboard" id="student-dashboard" aria-labelledby="student-dashboard-title">
+    <div class="student-dashboard-heading"><div><p class="eyebrow">YOUR ACADEMIC DASHBOARD</p><h2 id="student-dashboard-title">Attendance & academic calendar</h2><p>Calculate your attendance allowance and check the preloaded MUJ academic calendar and long-weekend options.</p></div></div>
+    <section class="student-panel attendance-calculator-panel" aria-labelledby="quick-attendance-title"><div class="student-panel-heading"><h3 id="quick-attendance-title">Attendance calculator</h3><span>75% target</span></div><p>Enter the total classes conducted and the classes you attended. No attendance file is needed.</p><div class="quick-attendance-inputs"><label for="quick-total">Total classes conducted<input id="quick-total" type="number" min="1" step="1" placeholder="e.g. 40"></label><label for="quick-attended">Classes attended<input id="quick-attended" type="number" min="0" step="1" placeholder="e.g. 34"></label></div><div id="quick-attendance-result" class="quick-attendance-result" aria-live="polite"><p>Enter both numbers to calculate your attendance.</p></div></section>
+    <div class="student-dashboard-grid">
+      <section class="student-panel holiday-panel" aria-labelledby="holiday-title">
+      <div class="student-panel-heading"><h3 id="holiday-title">Academic calendar & holidays</h3><span id="holiday-count">16 calendar entries</span></div>
+      <p>The MUJ Academic Calendar 2026–2027 is built in for all students. Select “View holiday list” to see the dates, or “Find matching long weekends” to see suggestions.</p>
+      <p class="attendance-footnote">Some dates may be observances rather than no-class holidays. Confirm official MUJ notices before making plans.</p>
+      <button type="button" class="feature-button" id="toggle-holiday-list" aria-expanded="false" aria-controls="holiday-list">View holiday list</button>
+      <div id="holiday-list" class="holiday-list" hidden><p class="student-empty">Loading academic calendar…</p></div>
+      <p id="holiday-status" class="feature-status" role="status">MUJ Academic Calendar 2026–2027 is preloaded.</p>
+      <div class="long-weekend-tools"><div class="student-panel-heading"><h3>Long-weekend planner</h3><span>Choose long-weekend length</span></div><p>Show breaks matching the selected total number of consecutive days. Suggested class days off are planning ideas, not confirmation that classes are cancelled.</p><label for="long-weekend-leave">Number of days in the long weekend</label><select id="long-weekend-leave"><option value="1">1 day</option><option value="2" selected>2 days</option><option value="3">3 days</option><option value="4">4 days</option><option value="5">5 days</option><option value="all">Show all</option></select><button type="button" class="feature-button" id="find-long-weekends" aria-expanded="false" aria-controls="long-weekend-results">Find matching long weekends</button><div id="long-weekend-results" class="holiday-list" hidden><p class="student-empty">Select a break length or choose “Show all”, then find the matching long-weekend options.</p></div></div>
+    </section>
+
+  </section>
+  <div class="feature-grid">
+    <article class="feature-tile"><span class="feature-icon">♿</span><h3>Accessible route</h3><p>Prefer paths marked accessible and avoid stairs.</p><label class="toggle-row"><input id="accessible-route" type="checkbox"><span>Prioritise ramps / lifts</span></label></article>
+    <article class="feature-tile"><span class="feature-icon">🌿</span><h3>Less crowded</h3><p>Penalise busy paths when calculating a route.</p><label class="toggle-row"><input id="crowd-route" type="checkbox"><span>Avoid crowded paths</span></label></article>
+    <article class="feature-tile"><span class="feature-icon">🚧</span><h3>Path closures</h3><p>Mark a demo path closed to test automatic rerouting.</p><label for="closed-path">Close a sample path</label><select id="closed-path"><option value="">No closure</option><option value="0">Main Gate ↔ Library</option><option value="1">Main Gate ↔ Administration</option><option value="2">Library ↔ Central Plaza</option><option value="4">Central Plaza ↔ Academic Block</option><option value="7">Academic Block ↔ CS Block</option></select></article>
+    <article class="feature-tile"><span class="feature-icon">🗓️</span><h3>Attendance calculator</h3><p>Calculate your current attendance percentage and how many classes you can miss or need to attend to reach 75%.</p><a class="feature-button" href="#student-dashboard-title">Open attendance calculator</a></article>
+    <article class="feature-tile multi-stop-tile"><span class="feature-icon">🧭</span><h3>Multi-stop trip</h3><p>Choose campus places to visit before your final destination. The C demo optimises each leg using Dijkstra; it does not yet solve a global travelling-salesperson optimum.</p><label for="extra-stop">Add an intermediate stop</label><select id="extra-stop"><option value="">Choose a demo stop</option><option value="1">Library</option><option value="2">Central Plaza</option><option value="5">Cafeteria</option><option value="7">Administration Office</option></select><div id="stops-list" class="stops-list">No stops added.</div><button type="button" class="feature-button" id="add-stop">Add stop</button></article>
+  </div>
+</section>
+</main>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="/realmap.js"></script><script src="/features.js"></script>
+<script src="/academic-tools.js?v=51"></script>
+<script>try{localStorage.removeItem("campusiq-timetable-v1")}catch(e){};</script>
+<script src="/sharing.js"></script>
+</body></html>

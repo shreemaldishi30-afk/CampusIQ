@@ -1,0 +1,627 @@
+{
+  "source": "CampusIQ-owned destination pins and approximate campus anchors; the interactive map renders its own markers.",
+  "count": 72,
+  "places": [
+    {
+      "id": "ab1-101",
+      "name": "AB1",
+      "latitude": 26.84219,
+      "longitude": 75.5647,
+      "outsideCampus": false,
+      "pinAccuracy": "approximate",
+      "roomNumber": "101",
+      "building": "AB1"
+    },
+    {
+      "id": "ab1-204",
+      "name": "AB1",
+      "latitude": 26.84219,
+      "longitude": 75.5647,
+      "outsideCampus": false,
+      "pinAccuracy": "approximate",
+      "roomNumber": "204",
+      "building": "AB1"
+    },
+    {
+      "id": "ab1-lab",
+      "name": "AB1 Computer Lab",
+      "latitude": 26.84219,
+      "longitude": 75.5647,
+      "outsideCampus": false,
+      "pinAccuracy": "approximate"
+    },
+    {
+      "id": "ab2-101",
+      "name": "AB2",
+      "latitude": 26.8427,
+      "longitude": 75.5661,
+      "outsideCampus": false,
+      "pinAccuracy": "approximate",
+      "roomNumber": "101",
+      "building": "AB2"
+    },
+    {
+      "id": "ab2-204",
+      "name": "AB2",
+      "latitude": 26.8427,
+      "longitude": 75.5661,
+      "outsideCampus": false,
+      "pinAccuracy": "approximate",
+      "roomNumber": "204",
+      "building": "AB2"
+    },
+    {
+      "id": "ab2-lab",
+      "name": "AB2 Computer Lab",
+      "latitude": 26.8427,
+      "longitude": 75.5661,
+      "outsideCampus": false,
+      "pinAccuracy": "approximate"
+    },
+    {
+      "id": "ab1",
+      "name": "Academic Block 1 (AB1)",
+      "latitude": 26.84219,
+      "longitude": 75.5647,
+      "outsideCampus": false,
+      "pinAccuracy": "approximate"
+    },
+    {
+      "id": "ab2",
+      "name": "Academic Block 2 (AB2)",
+      "latitude": 26.8427,
+      "longitude": 75.5661,
+      "outsideCampus": false,
+      "pinAccuracy": "approximate"
+    },
+    {
+      "id": "material-science-lab",
+      "name": "Material Science Lab (AB1 corridor)",
+      "latitude": 26.84319,
+      "longitude": 75.56465,
+      "outsideCampus": false,
+      "pinAccuracy": "place-pin-or-existing-anchor"
+    },
+    {
+      "id": "sharda-auditorium",
+      "name": "Sharda Pai Auditorium",
+      "latitude": 26.84333,
+      "longitude": 75.56575,
+      "outsideCampus": false,
+      "pinAccuracy": "place-pin-or-existing-anchor"
+    },
+    {
+      "id": "admin",
+      "name": "Administration Office",
+      "latitude": 26.84175,
+      "longitude": 75.56589,
+      "outsideCampus": false,
+      "pinAccuracy": "place-pin-or-existing-anchor"
+    },
+    {
+      "id": "teapost",
+      "name": "GHS",
+      "latitude": 26.8409679,
+      "longitude": 75.5634415,
+      "outsideCampus": false,
+      "pinAccuracy": "approximate",
+      "source": "CampusIQ map pin"
+    },
+    {
+      "id": "saras-campus",
+      "name": "Saras Dairy",
+      "latitude": 26.8408846,
+      "longitude": 75.5632663,
+      "outsideCampus": false,
+      "pinAccuracy": "place-pin-or-existing-anchor"
+    },
+    {
+      "id": "yumzee-cafe",
+      "name": "The Yumzee Cafe (Kulhad Chai Bar)",
+      "latitude": 26.8435327,
+      "longitude": 75.5663963,
+      "outsideCampus": false,
+      "pinAccuracy": "place-pin-or-existing-anchor"
+    },
+    {
+      "id": "dev-sweets",
+      "name": "Dev Sweets and Snacks",
+      "latitude": 26.8410957,
+      "longitude": 75.5621607,
+      "outsideCampus": false,
+      "pinAccuracy": "place-pin-or-existing-anchor"
+    },
+    {
+      "id": "tea-tradition",
+      "name": "Tea Tradition",
+      "latitude": 26.8410923,
+      "longitude": 75.5619992,
+      "outsideCampus": false,
+      "pinAccuracy": "place-pin-or-existing-anchor"
+    },
+    {
+      "id": "amul-cafe",
+      "name": "Amul Parlour",
+      "latitude": 26.8409968,
+      "longitude": 75.5635715,
+      "outsideCampus": false,
+      "pinAccuracy": "place-pin-or-existing-anchor"
+    },
+    {
+      "id": "tandoor",
+      "name": "Tandoor",
+      "latitude": 26.8409554,
+      "longitude": 75.5634372,
+      "outsideCampus": false,
+      "pinAccuracy": "place-pin-or-existing-anchor"
+    },
+    {
+      "id": "zaika",
+      "name": "Al Zaika Restaurant",
+      "latitude": 26.8365799,
+      "longitude": 75.5644722,
+      "outsideCampus": false,
+      "pinAccuracy": "place-pin-or-existing-anchor"
+    },
+    {
+      "id": "burger-farm",
+      "name": "Burger Farm",
+      "latitude": 26.841488,
+      "longitude": 75.563297,
+      "outsideCampus": false,
+      "pinAccuracy": "place-pin-or-existing-anchor"
+    },
+    {
+      "id": "mini-meals",
+      "name": "Mini Meals",
+      "latitude": 26.8417213,
+      "longitude": 75.5630982,
+      "outsideCampus": false,
+      "pinAccuracy": "place-pin-or-existing-anchor"
+    },
+    {
+      "id": "crazy-chef",
+      "name": "The Crazy Chef",
+      "latitude": 26.8416749,
+      "longitude": 75.5626972,
+      "outsideCampus": false,
+      "pinAccuracy": "place-pin-or-existing-anchor"
+    },
+    {
+      "id": "zero-degree-cafe",
+      "name": "Zero Degree Cafe",
+      "latitude": 26.8409999,
+      "longitude": 75.5630623,
+      "outsideCampus": false,
+      "pinAccuracy": "place-pin-or-existing-anchor"
+    },
+    {
+      "id": "jaipur-bakers",
+      "name": "Jaipur Bakers",
+      "latitude": 26.8407927,
+      "longitude": 75.5626958,
+      "outsideCampus": false,
+      "pinAccuracy": "place-pin-or-existing-anchor"
+    },
+    {
+      "id": "chinatown",
+      "name": "China Town",
+      "latitude": 26.8406519,
+      "longitude": 75.5622193,
+      "outsideCampus": false,
+      "pinAccuracy": "place-pin-or-existing-anchor"
+    },
+    {
+      "id": "mystery-machine",
+      "name": "Mystery Machine - The Gourmet Cafe",
+      "latitude": 26.8461421,
+      "longitude": 75.5623827,
+      "outsideCampus": false,
+      "pinAccuracy": "place-pin-or-existing-anchor"
+    },
+    {
+      "id": "wild-garden",
+      "name": "Wild Garden Jaipur",
+      "latitude": 26.843061,
+      "longitude": 75.5629505,
+      "outsideCampus": false,
+      "pinAccuracy": "place-pin-or-existing-anchor"
+    },
+    {
+      "id": "crossroads-cafe",
+      "name": "CrossRoads Cafe",
+      "latitude": 26.8376434,
+      "longitude": 75.56887,
+      "outsideCampus": false,
+      "pinAccuracy": "place-pin-or-existing-anchor"
+    },
+    {
+      "id": "kumawat-paratha",
+      "name": "Kumawat Paratha Junction",
+      "latitude": 26.8378314,
+      "longitude": 75.5649076,
+      "outsideCampus": false,
+      "pinAccuracy": "place-pin-or-existing-anchor"
+    },
+    {
+      "id": "stoa-cafe",
+      "name": "Stoa",
+      "latitude": 26.8346766,
+      "longitude": 75.5636506,
+      "outsideCampus": false,
+      "pinAccuracy": "place-pin-or-existing-anchor"
+    },
+    {
+      "id": "janak",
+      "name": "Janak Ki Thadi",
+      "latitude": 26.8460538,
+      "longitude": 75.5620833,
+      "outsideCampus": false,
+      "pinAccuracy": "place-pin-or-existing-anchor"
+    },
+    {
+      "id": "belgian-waffle-muj",
+      "name": "The Belgian Waffle Co. (near MUJ Hostel)",
+      "latitude": 26.8434451,
+      "longitude": 75.5632422,
+      "outsideCampus": false,
+      "pinAccuracy": "place-pin-or-existing-anchor"
+    },
+    {
+      "id": "bunk-and-brew",
+      "name": "Brew & Bunk Cafe",
+      "latitude": 26.8383849,
+      "longitude": 75.5651108,
+      "outsideCampus": false,
+      "pinAccuracy": "place-pin-or-existing-anchor"
+    },
+    {
+      "id": "chatkara",
+      "name": "Chatkara",
+      "latitude": 26.8416267,
+      "longitude": 75.5630646,
+      "outsideCampus": false,
+      "pinAccuracy": "place-pin-or-existing-anchor"
+    },
+    {
+      "id": "subway-muj",
+      "name": "Subway – Manipal University Jaipur",
+      "latitude": 26.8414983,
+      "longitude": 75.5631649,
+      "outsideCampus": false,
+      "pinAccuracy": "place-pin-or-existing-anchor"
+    },
+    {
+      "id": "pizza-bakers",
+      "name": "Pizza Baker's",
+      "latitude": 26.8414694,
+      "longitude": 75.5631308,
+      "outsideCampus": false,
+      "pinAccuracy": "place-pin-or-existing-anchor"
+    },
+    {
+      "id": "brew-and-flame",
+      "name": "Brew and Flame",
+      "latitude": 26.843436,
+      "longitude": 75.5632551,
+      "outsideCampus": false,
+      "pinAccuracy": "place-pin-or-existing-anchor"
+    },
+    {
+      "id": "all-mart",
+      "name": "All Mart",
+      "latitude": 26.8416634,
+      "longitude": 75.5630883,
+      "outsideCampus": false,
+      "pinAccuracy": "place-pin-or-existing-anchor"
+    },
+    {
+      "id": "rollin-kitchen",
+      "name": "The Rollin' Kitchen",
+      "latitude": 26.8434294,
+      "longitude": 75.5631769,
+      "outsideCampus": false,
+      "pinAccuracy": "place-pin-or-existing-anchor"
+    },
+    {
+      "id": "black-pearl-rental",
+      "name": "The Black Pearl Self Drive Car Rental Jaipur",
+      "latitude": 26.8385568,
+      "longitude": 75.565004,
+      "outsideCampus": false,
+      "pinAccuracy": "place-pin-or-existing-anchor"
+    },
+    {
+      "id": "highland-road-pin",
+      "name": "Highland Road pin (not verified as restaurant entrance)",
+      "latitude": 26.8479387,
+      "longitude": 75.5612689,
+      "outsideCampus": false,
+      "pinAccuracy": "road-reference"
+    },
+    {
+      "id": "mangal-chai-ghar",
+      "name": "Mangal Chai Ghar",
+      "latitude": 26.84308,
+      "longitude": 75.56288,
+      "outsideCampus": false,
+      "pinAccuracy": "approximate",
+      "source": "CampusIQ map pin"
+    },
+    {
+      "id": "lhc",
+      "name": "Lecture Hall Complex (LHC)",
+      "latitude": 26.84235,
+      "longitude": 75.56595,
+      "outsideCampus": false,
+      "pinAccuracy": "approximate",
+      "building": "Lecture Hall Complex, MUJ",
+      "aliases": [
+        "LHC",
+        "LHC Ground Floor"
+      ],
+      "source": "Approximate campus anchor; verify against official MUJ map"
+    },
+    {
+      "id": "ab3",
+      "outsideCampus": false,
+      "name": "Academic Block 3 (AB3)",
+      "latitude": 26.84305,
+      "longitude": 75.56625,
+      "pinAccuracy": "approximate",
+      "source": "CampusIQ map pin"
+    },
+    {
+      "id": "dome",
+      "outsideCampus": false,
+      "name": "Dome Building",
+      "latitude": 26.84355,
+      "longitude": 75.56585,
+      "pinAccuracy": "approximate",
+      "source": "CampusIQ map pin"
+    },
+    {
+      "id": "central-library",
+      "outsideCampus": false,
+      "name": "Central Library",
+      "latitude": 26.84285,
+      "longitude": 75.56515,
+      "pinAccuracy": "approximate",
+      "source": "CampusIQ map pin"
+    },
+    {
+      "id": "new-library",
+      "outsideCampus": false,
+      "name": "New Library",
+      "latitude": 26.8426,
+      "longitude": 75.56545,
+      "pinAccuracy": "approximate",
+      "source": "CampusIQ map pin"
+    },
+    {
+      "id": "aws-lab",
+      "outsideCampus": false,
+      "name": "AWS Lab",
+      "latitude": 26.84235,
+      "longitude": 75.56505,
+      "pinAccuracy": "approximate",
+      "source": "CampusIQ map pin"
+    },
+    {
+      "id": "mechanical-workshop",
+      "outsideCampus": false,
+      "name": "Mechanical Workshop",
+      "latitude": 26.84185,
+      "longitude": 75.5651,
+      "pinAccuracy": "approximate",
+      "source": "CampusIQ map pin"
+    },
+    {
+      "id": "xrd-lab",
+      "outsideCampus": false,
+      "name": "XRD Lab",
+      "latitude": 26.84318,
+      "longitude": 75.56472,
+      "pinAccuracy": "approximate",
+      "source": "CampusIQ map pin"
+    },
+    {
+      "id": "workshop",
+      "outsideCampus": false,
+      "name": "Workshop Building",
+      "latitude": 26.84195,
+      "longitude": 75.56435,
+      "pinAccuracy": "approximate",
+      "source": "CampusIQ map pin"
+    },
+    {
+      "id": "ramdas-amphitheatre",
+      "outsideCampus": false,
+      "name": "Ramdas Pai Amphitheatre",
+      "latitude": 26.84333,
+      "longitude": 75.56575,
+      "pinAccuracy": "approximate",
+      "source": "CampusIQ map pin"
+    },
+    {
+      "id": "cafeteria",
+      "outsideCampus": false,
+      "name": "Cafeteria / Food Court",
+      "latitude": 26.84272,
+      "longitude": 75.56605,
+      "pinAccuracy": "approximate",
+      "source": "CampusIQ map pin"
+    },
+    {
+      "id": "sports",
+      "outsideCampus": false,
+      "name": "Sports Complex",
+      "latitude": 26.84055,
+      "longitude": 75.56745,
+      "pinAccuracy": "approximate",
+      "source": "CampusIQ map pin"
+    },
+    {
+      "id": "hostel",
+      "outsideCampus": false,
+      "name": "Hostel / Residence",
+      "latitude": 26.8413,
+      "longitude": 75.56285,
+      "pinAccuracy": "approximate",
+      "source": "CampusIQ map pin"
+    },
+    {
+      "id": "mess",
+      "outsideCampus": false,
+      "name": "Hostel Mess",
+      "latitude": 26.84115,
+      "longitude": 75.56235,
+      "pinAccuracy": "approximate",
+      "source": "CampusIQ map pin"
+    },
+    {
+      "id": "main-gate",
+      "outsideCampus": false,
+      "name": "MUJ Main Gate",
+      "latitude": 26.83975,
+      "longitude": 75.565,
+      "pinAccuracy": "approximate",
+      "source": "CampusIQ map pin"
+    },
+    {
+      "id": "muj-cafeteria-ab1",
+      "outsideCampus": false,
+      "name": "001 AB1 (DSW)",
+      "latitude": 26.84219,
+      "longitude": 75.5647,
+      "pinAccuracy": "approximate",
+      "source": "CampusIQ map pin"
+    },
+    {
+      "id": "old-food-court",
+      "outsideCampus": false,
+      "name": "Old Mess",
+      "latitude": 26.84172,
+      "longitude": 75.5631,
+      "pinAccuracy": "approximate",
+      "source": "CampusIQ map pin"
+    },
+    {
+      "id": "munchies",
+      "outsideCampus": false,
+      "name": "Munchies",
+      "latitude": 26.84162,
+      "longitude": 75.56312,
+      "pinAccuracy": "approximate",
+      "source": "CampusIQ map pin"
+    },
+    {
+      "id": "nescafe-campus",
+      "outsideCampus": false,
+      "name": "Nescafe",
+      "latitude": 26.84145,
+      "longitude": 75.5631,
+      "pinAccuracy": "approximate",
+      "source": "CampusIQ map pin"
+    },
+    {
+      "id": "dialog-cafe",
+      "outsideCampus": false,
+      "name": "Cafe Dialog",
+      "latitude": 26.8411,
+      "longitude": 75.5625,
+      "pinAccuracy": "approximate",
+      "source": "CampusIQ map pin"
+    },
+    {
+      "id": "devine-snacks",
+      "outsideCampus": false,
+      "name": "Devine Snacks",
+      "latitude": 26.8411,
+      "longitude": 75.56225,
+      "pinAccuracy": "approximate",
+      "source": "CampusIQ map pin"
+    },
+    {
+      "id": "taste-of-india",
+      "outsideCampus": false,
+      "name": "Taste of India",
+      "latitude": 26.84138,
+      "longitude": 75.56265,
+      "pinAccuracy": "approximate",
+      "source": "CampusIQ map pin"
+    },
+    {
+      "id": "chilling-point",
+      "outsideCampus": false,
+      "name": "Chilling Point",
+      "latitude": 26.84132,
+      "longitude": 75.56278,
+      "pinAccuracy": "approximate",
+      "source": "CampusIQ map pin"
+    },
+    {
+      "id": "food-court-co",
+      "outsideCampus": false,
+      "name": "Food Court Monginis",
+      "latitude": 26.84102,
+      "longitude": 75.5629,
+      "pinAccuracy": "approximate",
+      "source": "CampusIQ map pin"
+    },
+    {
+      "id": "havmor",
+      "outsideCampus": false,
+      "name": "Havmor",
+      "latitude": 26.84118,
+      "longitude": 75.56295,
+      "pinAccuracy": "approximate",
+      "source": "CampusIQ map pin"
+    },
+    {
+      "id": "italian-oven",
+      "outsideCampus": false,
+      "name": "Italian Oven",
+      "latitude": 26.84125,
+      "longitude": 75.56285,
+      "pinAccuracy": "approximate",
+      "source": "CampusIQ map pin"
+    },
+    {
+      "id": "cook-house",
+      "outsideCampus": false,
+      "name": "Cookhouse",
+      "latitude": 26.84128,
+      "longitude": 75.56258,
+      "pinAccuracy": "approximate",
+      "source": "CampusIQ map pin"
+    },
+    {
+      "id": "nothing-before-coffee",
+      "outsideCampus": false,
+      "name": "NBC",
+      "latitude": 26.84302,
+      "longitude": 75.56292,
+      "pinAccuracy": "approximate",
+      "source": "CampusIQ map pin"
+    },
+    {
+      "id": "highland",
+      "outsideCampus": false,
+      "name": "Highland",
+      "latitude": 26.8479387,
+      "longitude": 75.5612689,
+      "pinAccuracy": "approximate",
+      "source": "CampusIQ map pin"
+    },
+    {
+      "id": "baba",
+      "name": "Baba",
+      "latitude": 26.84122,
+      "longitude": 75.56248,
+      "outsideCampus": false,
+      "pinAccuracy": "approximate",
+      "source": "CampusIQ map pin"
+    }
+  ]
+}
