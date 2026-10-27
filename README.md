@@ -174,3 +174,4 @@ The experimental timetable-photo/OCR feature has been removed because it could m
 - Tea Post's dropdown entry is now shown as GHS. Tea Post remains a search alias for compatibility.
 - Mangal Chai Ghar has been moved to the Wild Garden area.
 - Important: for locations where no coordinates were supplied, the current pins are approximate campus anchors for selection/routing and should be replaced with exact coordinates when available.
+# CampusIQ
